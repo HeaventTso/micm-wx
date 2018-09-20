@@ -1,0 +1,11 @@
+<template name="test_tabbar$e6789a8e">
+  <view class="_div data-v-028d891a footer">
+    <i-tab-bar current="{{currentTabbar}}" color="#4878FF" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i-tab-bar data-v-028d891a">
+      <i-tab-bar-item key="homepage" icon="homepage_fill" current-icon="homepage_fill" title="首页" class="_i-tab-bar-item data-v-028d891a"></i-tab-bar-item>
+      <i-tab-bar-item key="company" icon="group_fill" current-icon="group_fill" title="公司" class="_i-tab-bar-item data-v-028d891a"></i-tab-bar-item>
+      <i-tab-bar-item key="listing" icon="remind_fill" current-icon="remind_fill" count="3" title="上市" class="_i-tab-bar-item data-v-028d891a"></i-tab-bar-item>
+      <i-tab-bar-item key="analysis" icon="dynamic_fill" current-icon="dynamic_fill" dot title="分析" class="_i-tab-bar-item data-v-028d891a"></i-tab-bar-item>
+      <i-tab-bar-item key="news" icon="interactive_fill" current-icon="interactive_fill" dot title="资讯" class="_i-tab-bar-item data-v-028d891a"></i-tab-bar-item>
+    </i-tab-bar>
+  </view>
+</template>

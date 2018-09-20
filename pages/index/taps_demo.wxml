@@ -1,0 +1,1 @@
+<import src="../../components/taps_demo$7ca3f8c0" /><template is="taps_demo$7ca3f8c0" data="{{ ...$root['0'], $root }}"/>

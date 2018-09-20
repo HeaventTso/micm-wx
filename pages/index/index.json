@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "投资信息",
+  "usingComponents": {
+    "i-tabs": "../../iView-weapp/tabs/index",
+    "i-tab": "../../iView-weapp/tab/index",
+    "i-row": "../../iView-weapp/row/index",
+    "i-col": "../../iView-weapp/col/index",
+    "i-icon": "../../iView-weapp/icon/index",
+    "i-steps": "../../iView-weapp/steps/index",
+    "i-step": "../../iView-weapp/step/index",
+    "i-button": "../../iView-weapp/button/index",
+    "i-sticky": "../../iView-weapp/sticky/index",
+    "i-sticky-item": "../../iView-weapp/sticky-item/index",
+    "i-tab-bar": "../../iView-weapp/tab-bar/index",
+    "i-tab-bar-item": "../../iView-weapp/tab-bar-item/index"
+  }
+}

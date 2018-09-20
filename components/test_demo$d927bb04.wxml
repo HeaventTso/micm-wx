@@ -1,0 +1,72 @@
+<template name="test_demo$d927bb04">
+  <view class="_div data-v-08c091b8">
+    <view class="_div data-v-08c091b8 i-sticky-demo-des"> 注: 1.由于组件内部不能使用onPageScroll,导致不能监听scrollTop值只能通过用户用props传递。 </view>
+    <view class="_div data-v-08c091b8 i-sticky-demo-des"> 2.在微信开发客户端显示的时候会有bug。不停计算scrollTop值不能同步 </view>
+    <view class="_div data-v-08c091b8 i-sticky-demo">
+      <i-sticky scrollTop="{{scrollTop}}" class="_i-sticky data-v-08c091b8">
+        <i-sticky-item i-class="i-sticky-demo-title" class="_i-sticky-item data-v-08c091b8">
+          <view slot="title" class="_div data-v-08c091b8"> 逻辑层 </view>
+          <view slot="content" class="_div data-v-08c091b8">
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册程序</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">场景值</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册页面</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">路由</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">模块化</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">API</view>
+          </view>
+        </i-sticky-item>
+        <i-sticky-item i-class="i-sticky-demo-title" class="_i-sticky-item data-v-08c091b8">
+          <view slot="title" class="_div data-v-08c091b8"> 视图层 </view>
+          <view slot="content" class="_div data-v-08c091b8">
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册程序</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">场景值</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册页面</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">路由</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">模块化</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">API</view>
+          </view>
+        </i-sticky-item>
+        <i-sticky-item i-class="i-sticky-demo-title" class="_i-sticky-item data-v-08c091b8">
+          <view slot="title" class="_div data-v-08c091b8"> 自定义组件 </view>
+          <view slot="content" class="_div data-v-08c091b8">
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册程序</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">场景值</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册页面</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">路由</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">模块化</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">API</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册程序</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">场景值</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册页面</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">路由</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">模块化</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">API</view>
+          </view>
+        </i-sticky-item>
+        <i-sticky-item i-class="i-sticky-demo-title" class="_i-sticky-item data-v-08c091b8">
+          <view slot="title" class="_div data-v-08c091b8"> 插件 </view>
+          <view slot="content" class="_div data-v-08c091b8">
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册程序</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">场景值</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册页面</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">路由</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">模块化</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">API</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册程序</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">场景值</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册页面</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">路由</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">模块化</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">API</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册程序</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">场景值</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">注册页面</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">路由</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">模块化</view>
+            <view class="_div data-v-08c091b8 i-sticky-demo-item">API</view>
+          </view>
+        </i-sticky-item>
+      </i-sticky>
+    </view>
+  </view>
+</template>

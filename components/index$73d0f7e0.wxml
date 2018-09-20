@@ -1,0 +1,337 @@
+<template name="index$73d0f7e0">
+  <view class="_div data-v-683bd7cc container" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-683bd7cc header">
+      <i-row class="_i-row data-v-683bd7cc">
+        <i-col offset="1" span="1" class="_i-col data-v-683bd7cc"><label style="font-weight: bolder" class="_span data-v-683bd7cc">
+            <i-icon type="return" size="20" class="_i-icon data-v-683bd7cc"></i-icon>
+          </label></i-col>
+        <i-col offset="1" span="9" class="_i-col data-v-683bd7cc"><label class="_span data-v-683bd7cc text-titel-menu">58.com.lnc.</label></i-col>
+        <i-col offset="1" span="11" class="_i-col data-v-683bd7cc"><label class="_span data-v-683bd7cc text-tips-menu">截止日期:2018-08-08</label></i-col>
+      </i-row>
+    </view>
+    <view class="_div data-v-683bd7cc tabs-fix">
+      <i-tabs current="{{current}}" color="#035FFF" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i-tabs data-v-683bd7cc">
+        <i-tab key="tab1" title="投资信息" class="_i-tab data-v-683bd7cc"></i-tab>
+        <i-tab key="tab2" title="财务信息" class="_i-tab data-v-683bd7cc"></i-tab>
+        <i-tab key="tab3" title="基本信息" class="_i-tab data-v-683bd7cc"></i-tab>
+        <i-tab key="tab4" title="上市信息" count="5" class="_i-tab data-v-683bd7cc"></i-tab>
+      </i-tabs>
+    </view>
+    <view style="width:100%;height:83px;" class="_div data-v-683bd7cc"></view>
+    <view hidden="{{!(current == 'tab1')}}" class="_div data-v-683bd7cc">
+      <view class="_div data-v-683bd7cc box">
+        <i-row class="_i-row data-v-683bd7cc">
+          <i-col offset="1" span="19" i-class="col-class" class="_i-col data-v-683bd7cc">
+            <view class="_div data-v-683bd7cc self-title">
+              <i-icon type="activity_fill" color="#1C6CF8" size="22" class="_i-icon data-v-683bd7cc"></i-icon> 投资汇总(USD、MN)
+            </view>
+          </i-col>
+          <i-col span="4" i-class="col-class" class="_i-col data-v-683bd7cc">USD</i-col>
+        </i-row>
+        <view class="_div data-v-683bd7cc transverse-line"></view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">累计投资成本:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">OS:</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">2.56%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">持有价值:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">FD:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">31.1%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">分红金额:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">IRR:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">31.1%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">公司估值:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">MOC:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">15.1</i-col>
+          </i-row>
+        </view>
+      </view>
+      <view class="_div data-v-683bd7cc box">
+        <i-row class="_i-row data-v-683bd7cc">
+          <i-col offset="1" span="23" i-class="col-class" class="_i-col data-v-683bd7cc">
+            <view class="_div data-v-683bd7cc self-title">
+              <i-icon type="activity_fill" color="#1C6CF8" size="22" class="_i-icon data-v-683bd7cc"></i-icon> nature of business
+            </view>
+          </i-col>
+        </i-row>
+        <view class="_div data-v-683bd7cc transverse-line"></view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="22" i-class="col-class" class="_i-col data-v-683bd7cc">
+              <view class="_div data-v-683bd7cc text-tips">
+                <view class="_p data-v-683bd7cc">如果你无法简洁表达你的想法，那只能说明你还不够了解它。</view>
+                <view class="_p data-v-683bd7cc">Knock，Knock， Who's there.</view>
+                <view class="_p data-v-683bd7cc">Today is the only day. Yesterday is gone.</view>
+                <view class="_p data-v-683bd7cc">A book is like a magic garden, carried in your pocket.</view>
+              </view>
+            </i-col>
+          </i-row>
+        </view>
+      </view>
+      <view class="_div data-v-683bd7cc box">
+        <i-row class="_i-row data-v-683bd7cc">
+          <i-col offset="1" span="23" i-class="col-class" class="_i-col data-v-683bd7cc">
+            <view class="_div data-v-683bd7cc self-title">
+              <i-icon type="activity_fill" color="#1C6CF8" size="22" class="_i-icon data-v-683bd7cc"></i-icon> 投资明细(USD)
+            </view>
+          </i-col>
+        </i-row>
+        <view class="_div data-v-683bd7cc transverse-line"></view>
+        <view style="margin:0 10px" class="_div data-v-683bd7cc">
+          <i-steps direction="vertical" class="_i-steps data-v-683bd7cc">
+            <i-step status="finish" title="IPO上市" class="_i-step data-v-683bd7cc">
+              <view slot="content" class="_div data-v-683bd7cc">
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="24" class="_i-col data-v-683bd7cc">2018.09.19</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">跟投额:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">100,000.00</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">投资主体:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">ABCDEFGHIJKLMNO公司</i-col>
+                </i-row>
+              </view>
+            </i-step>
+            <i-step status="finish" title=" F轮" class="_i-step data-v-683bd7cc">
+              <view slot="content" class="_div data-v-683bd7cc">
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="24" class="_i-col data-v-683bd7cc">2018.09.19</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">跟投额:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">100,000.00</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">投资主体:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">ABCDEFGHIJKLMNO公司</i-col>
+                </i-row>
+              </view>
+            </i-step>
+            <i-step status="finish" title="E+轮" class="_i-step data-v-683bd7cc">
+              <view slot="content" class="_div data-v-683bd7cc">
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="24" class="_i-col data-v-683bd7cc">2018.09.19</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">跟投额:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">100,000.00</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">投资主体:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">ABCDEFGHIJKLMNO公司</i-col>
+                </i-row>
+              </view>
+            </i-step>
+            <i-step status="finish" title="E轮" class="_i-step data-v-683bd7cc">
+              <view slot="content" class="_div data-v-683bd7cc">
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="24" class="_i-col data-v-683bd7cc">2018.09.19</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">跟投额:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">100,000.00</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">投资主体:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">ABCDEFGHIJKLMNO公司</i-col>
+                </i-row>
+              </view>
+            </i-step>
+            <i-step status="finish" title="D轮" class="_i-step data-v-683bd7cc">
+              <view slot="content" class="_div data-v-683bd7cc">
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="24" class="_i-col data-v-683bd7cc">2018.09.19</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">跟投额:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">100,000.00</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">投资主体:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">ABCDEFGHIJKLMNO公司</i-col>
+                </i-row>
+              </view>
+            </i-step>
+            <i-step status="finish" title="C轮" class="_i-step data-v-683bd7cc">
+              <view slot="content" class="_div data-v-683bd7cc">
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="24" class="_i-col data-v-683bd7cc">2018.09.19</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">跟投额:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">100,000.00</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">投资主体:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">ABCDEFGHIJKLMNO公司</i-col>
+                </i-row>
+              </view>
+            </i-step>
+            <i-step status="finish" title="B轮" class="_i-step data-v-683bd7cc">
+              <view slot="content" class="_div data-v-683bd7cc">
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="24" class="_i-col data-v-683bd7cc">2018.09.19</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">跟投额:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">100,000.00</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">投资主体:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">ABCDEFGHIJKLMNO公司</i-col>
+                </i-row>
+              </view>
+            </i-step>
+            <i-step status="finish" title="A轮" class="_i-step data-v-683bd7cc">
+              <view slot="content" class="_div data-v-683bd7cc">
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="24" class="_i-col data-v-683bd7cc">2018.09.19</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">跟投额:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">100,000.00</i-col>
+                </i-row>
+                <i-row class="_i-row data-v-683bd7cc">
+                  <i-col span="5" class="_i-col data-v-683bd7cc">投资主体:</i-col>
+                  <i-col offset="1" span="18" class="_i-col data-v-683bd7cc">ABCDEFGHIJKLMNO公司</i-col>
+                </i-row>
+              </view>
+            </i-step>
+          </i-steps>
+        </view>
+      </view>
+    </view>
+    <view wx:if="{{current == 'tab2'}}" class="_div data-v-683bd7cc">
+      <view class="_div data-v-683bd7cc box">
+        <i-row class="_i-row data-v-683bd7cc">
+          <i-col offset="1" span="19" i-class="col-class" class="_i-col data-v-683bd7cc">
+            <view class="_div data-v-683bd7cc self-title">
+              <i-icon type="activity_fill" color="#1C6CF8" size="22" class="_i-icon data-v-683bd7cc"></i-icon> 投资汇总(USD、MN)
+            </view>
+          </i-col>
+          <i-col span="4" i-class="col-class" class="_i-col data-v-683bd7cc">USD</i-col>
+        </i-row>
+        <view class="_div data-v-683bd7cc transverse-line"></view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">累计投资成本:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">OS:</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">2.56%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">持有价值:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">FD:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">31.1%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">分红金额:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">IRR:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">31.1%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">公司估值:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">MOC:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">15.1</i-col>
+          </i-row>
+        </view>
+      </view>
+    </view>
+    <view wx:if="{{current == 'tab3'}}" class="_div data-v-683bd7cc"> 基本信息 </view>
+    <view wx:if="{{current == 'tab4'}}" class="_div data-v-683bd7cc">
+      <view class="_div data-v-683bd7cc box">
+        <i-row class="_i-row data-v-683bd7cc">
+          <i-col offset="1" span="19" i-class="col-class" class="_i-col data-v-683bd7cc">
+            <view class="_div data-v-683bd7cc self-title">
+              <i-icon type="activity_fill" color="#1C6CF8" size="22" class="_i-icon data-v-683bd7cc"></i-icon> 投资汇总(USD、MN)
+            </view>
+          </i-col>
+          <i-col span="4" i-class="col-class" class="_i-col data-v-683bd7cc">USD</i-col>
+        </i-row>
+        <view class="_div data-v-683bd7cc transverse-line"></view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">累计投资成本:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">OS:</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">2.56%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">持有价值:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">FD:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">31.1%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">分红金额:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">IRR:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">31.1%</i-col>
+          </i-row>
+        </view>
+        <view class="_div data-v-683bd7cc self-margin-5-0">
+          <i-row class="_i-row data-v-683bd7cc">
+            <i-col offset="1" span="7" i-class="col-class" class="_i-col data-v-683bd7cc">公司估值:</i-col>
+            <i-col offset="1" span="6" i-class="col-class" class="_i-col data-v-683bd7cc">1,000.00</i-col>
+            <i-col offset="1" span="3" i-class="col-class" class="_i-col data-v-683bd7cc">MOC:</i-col>
+            <i-col offset="1" span="4" i-class="col-class" class="_i-col data-v-683bd7cc">15.1</i-col>
+          </i-row>
+        </view>
+      </view>
+      <view class="_div data-v-683bd7cc box">
+        <i-row class="_i-row data-v-683bd7cc">
+          <i-col offset="1" span="11" i-class="col-class" class="_i-col data-v-683bd7cc">
+            <view class="_div data-v-683bd7cc self-title">
+              <i-icon type="activity_fill" color="#1C6CF8" size="22" class="_i-icon data-v-683bd7cc"></i-icon> 交易状态
+            </view>
+          </i-col>
+          <i-col offset="1" span="11" i-class="col-class" class="_i-col data-v-683bd7cc">
+            <view class="_div data-v-683bd7cc text-right"><label class="_span data-v-683bd7cc text-bolder">Tradable</label>:<label class="_span data-v-683bd7cc text-tips"> Partially Yes</label></view>
+          </i-col>
+        </i-row>
+        <view class="_div data-v-683bd7cc transverse-line"></view>
+      </view>
+    </view>
+    <view style="width:100%;height:50px;" class="_div data-v-683bd7cc"></view>
+    <view class="_div data-v-683bd7cc footer" style="position:fixed;bottom:0;width: 100%;z-index: 3;">
+      <i-tab-bar current="{{currentTabbar}}" color="#4878FF" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_i-tab-bar data-v-683bd7cc">
+        <i-tab-bar-item key="homepage" icon="homepage_fill" current-icon="homepage_fill" title="首页" class="_i-tab-bar-item data-v-683bd7cc"></i-tab-bar-item>
+        <i-tab-bar-item key="company" icon="group_fill" current-icon="group_fill" title="公司" class="_i-tab-bar-item data-v-683bd7cc"></i-tab-bar-item>
+        <i-tab-bar-item key="listing" icon="remind_fill" current-icon="remind_fill" count="3" title="上市" class="_i-tab-bar-item data-v-683bd7cc"></i-tab-bar-item>
+        <i-tab-bar-item key="analysis" icon="dynamic_fill" current-icon="dynamic_fill" dot title="分析" class="_i-tab-bar-item data-v-683bd7cc"></i-tab-bar-item>
+        <i-tab-bar-item key="news" icon="interactive_fill" current-icon="interactive_fill" dot title="资讯" class="_i-tab-bar-item data-v-683bd7cc"></i-tab-bar-item>
+      </i-tab-bar>
+    </view>
+  </view>
+</template>

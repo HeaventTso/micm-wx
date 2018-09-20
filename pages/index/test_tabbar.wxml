@@ -1,0 +1,1 @@
+<import src="../../components/test_tabbar$e6789a8e" /><template is="test_tabbar$e6789a8e" data="{{ ...$root['0'], $root }}"/>

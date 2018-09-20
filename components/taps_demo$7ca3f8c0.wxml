@@ -1,0 +1,27 @@
+<template name="taps_demo$7ca3f8c0">
+  <view class="_div data-v-370272da">
+    <i-tabs current="{{current}}" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i-tabs data-v-370272da">
+      <i-tab key="tab1" title="选项1" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab2" title="选项2" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab3" title="选项3" class="_i-tab data-v-370272da"></i-tab>
+    </i-tabs> 自定义主题色 <i-tabs current="{{current}}" color="#f759ab" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_i-tabs data-v-370272da">
+      <i-tab key="tab1" title="选项1" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab2" title="选项2" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab3" title="选项3" class="_i-tab data-v-370272da"></i-tab>
+    </i-tabs> 徽标 <i-tabs current="{{current}}" bindchange="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_i-tabs data-v-370272da">
+      <i-tab key="tab1" title="选项1" count="3" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab2" title="选项2" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab3" title="选项3" dot class="_i-tab data-v-370272da"></i-tab>
+    </i-tabs> 滚动 <i-tabs current="{{current_scroll}}" scroll bindchange="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_i-tabs data-v-370272da">
+      <i-tab key="tab1" title="选项1" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab2" title="选项2" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab3" title="选项3" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab4" title="选项4" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab5" title="选项5" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab6" title="选项6" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab7" title="选项7" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab8" title="选项8" class="_i-tab data-v-370272da"></i-tab>
+      <i-tab key="tab9" title="选项9" class="_i-tab data-v-370272da"></i-tab>
+    </i-tabs>
+  </view>
+</template>

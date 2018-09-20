@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "taps例子",
+  "usingComponents": {
+    "i-tabs": "../../iView-weapp/tabs/index",
+    "i-tab": "../../iView-weapp/tab/index"
+  }
+}

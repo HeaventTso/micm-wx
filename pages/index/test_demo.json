@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "iview例子",
+  "usingComponents": {
+    "i-sticky": "../../iView-weapp/sticky/index",
+    "i-sticky-item": "../../iView-weapp/sticky-item/index"
+  }
+}

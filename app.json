@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/test_tabbar",
+    "pages/index/taps_demo",
+    "pages/index/test_demo",
+    "pages/counter/index",
+    "pages/logs/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "subPackages": []
+}
